@@ -28,7 +28,6 @@ content:
       - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
       - { name: title, label: Title, type: string }
       - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
-content:
   - name: properties # The machine-name for the collection
     label: Properties # The display name in the CMS UI
     type: collection # Defines this as a collection of multiple entries
