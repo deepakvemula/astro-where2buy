@@ -69,7 +69,11 @@ content:
         type: number
       - name: project_status
         label: Project Status
-        type: string # Can also be 'select' with predefined options
+        type: select # Changed from 'string' to 'select'
+        options:
+          values: # Added the options block
+            - Under Construction
+            - Ready to Move
       - name: possession_date
         label: Possession Date
         type: date
